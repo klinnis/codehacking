@@ -1,7 +1,11 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Markos
- * Date: 8/13/2018
- * Time: 11:57 AM
- */
+@extends('layouts.admin')
+
+
+@section('content')
+
+
+
+    <h1>Edit Post</h1>
+
+
+@stop

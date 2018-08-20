@@ -3,6 +3,13 @@
 
 @section('content')
 
+    @if(Session::has('User Deleted3'))
+
+    <p class="bg-success">{{session('User Deleted3')}}</p>
+
+
+    @endif
+
 <h1>Users</h1>
 
 
